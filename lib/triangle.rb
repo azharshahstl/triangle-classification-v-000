@@ -18,9 +18,9 @@ class Triangle
          elsif side_1 == side_2 && side_2 == side_3 
          return equi_hash.key(3)
          elsif side_1 != side_2 && side_2 != side_3 
-         return 
+         return scal_hash.key(1)
          elsif side_1 == side_2 || side_2 == side_3 || side_1 == side_3
-         return 
+         return iso_hash.key(2)
       end
       
   end
